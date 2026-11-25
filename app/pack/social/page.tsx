@@ -1,6 +1,6 @@
 import PackTabWrapper from "@/app/components/PackTabWrapper";
 import { type PackConfig } from "@/app/components/PackAssessmentClient";
-import SocialStoryGame from "@/app/components/game/SocialStoryGame";
+import SocialAssessmentGame from "@/app/components/game/SocialAssessmentGame";
 
 const config: PackConfig = {
   packName: "사회",
@@ -24,5 +24,5 @@ const config: PackConfig = {
 };
 
 export default function SocialPack() {
-  return <PackTabWrapper config={config} game={<SocialStoryGame />} />;
+  return <PackTabWrapper config={config} game={<SocialAssessmentGame />} />;
 }
